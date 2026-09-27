@@ -1,7 +1,7 @@
-Before running, install the middleware and associated tools (on both machines):
+Antes de executar, instale o middleware e as ferramentas associadas (nas duas máquinas):
 
 
-## On Amazon Linux
+## No Amazon Linux
 ```
 sudo dnf install https://download.zeroc.com/ice/3.7/amzn2023/ice-repo-3.7.amzn2023.noarch.rpm
 ```
@@ -10,7 +10,7 @@ sudo dnf install https://download.zeroc.com/ice/3.7/amzn2023/ice-repo-3.7.amzn20
 sudo dnf install python3-ice ice-compilers
 ```
 
-## On Ubuntu
+## No Ubuntu
 ```
 wget "https://download.zeroc.com/ice/3.8/ubuntu26.04/ice-repo-3.8_1.0.0_all.deb" -O ice-repo.deb
 sudo dpkg -i ice-repo.deb
@@ -23,12 +23,15 @@ sudo apt-get install python3-zeroc-ice
 ```
 sudo apt-get install zeroc-ice-compilers
 ```
-## On Windows / macOS (pip)
+
+## No Windows / macOS (pip)
 ```
 pip install zeroc-ice
 ```
 
-Note: This code is exactly as in Example 3.21 of Maarten van Steen's book.
+Observação: o código original deste repositório é exatamente o do Exemplo 3.21
+do livro de Maarten van Steen (*Distributed Systems*). Os métodos novos
+descritos abaixo foram acrescentados a ele.
 
 ---
 
